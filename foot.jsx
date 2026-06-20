@@ -103,4 +103,55 @@ export const FooterCTA = ({ onLogin }) => (
       <button
         onClick={onLogin}
         style={{
-          background: "
+          background: "rgba(255,255,255,0.15)",
+          color: "white",
+          border: "4px solid white",
+          borderRadius: 50,
+          padding: "14px 36px",
+          fontWeight: 800,
+          fontSize: 16,
+          fontFamily: "'VT323', monospace",
+          cursor: "pointer",
+          letterSpacing: "1px",
+          boxShadow: "6px 6px 0 rgba(0,0,0,0.1)",
+          transition: "all 0.2s",
+        }}
+        className="hover-scale"
+      >
+        🔍 Join as Brand
+      </button>
+    </div>
+
+    <div
+      style={{
+        borderTop: "3px solid rgba(255,255,255,0.2)",
+        paddingTop: 28,
+        color: "rgba(255,255,255,0.7)",
+        fontSize: 14,
+        lineHeight: 2,
+        fontFamily: "'VT323', monospace",
+        letterSpacing: "0.5px",
+      }}
+    >
+      Team MicroChips · Trisha · Shreyasi · Manpreet · Deepanshu
+      <br />
+      ✉️ trisha.tt66@gmail.com
+    </div>
+
+    <div
+      style={{
+        marginTop: 20,
+        display: "flex",
+        gap: 12,
+        justifyContent: "center",
+        fontSize: 24,
+      }}
+    >
+      <span>✨</span>
+      <span>🌟</span>
+      <span>💫</span>
+      <span>🌈</span>
+      <span>🎮</span>
+    </div>
+  </section>
+);
